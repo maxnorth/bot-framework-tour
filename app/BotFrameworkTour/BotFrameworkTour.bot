@@ -1,0 +1,18 @@
+{
+    "name": "BotFrameworkTour",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:5000/api/messages",
+            "id": "2270da70-49cf-11e9-9e5c-2d41c696d712",
+            "name": "BotFrameworkTour"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "path": "C:\\Users\\maxwe\\Documents\\Projects\\dotnet\\bot-framework-tour\\app\\BotFrameworkTour\\BotFrameworkTour.bot",
+    "overrides": null
+}
