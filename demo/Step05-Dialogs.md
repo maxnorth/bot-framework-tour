@@ -4,3 +4,5 @@ describe dialog stack
 need to build waterfall dialogs deterministically, else you could get unexpected behavior
 prompts, validation, retry prompts, validation scores (might hold off on this one til the)
 dialogset can be associated with different kinds of state for different purposes
+
+## [Compare changes](https://github.com/maxnorth/bot-framework-tour/compare/step-04-middleware...step-05-dialogs)

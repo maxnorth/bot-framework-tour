@@ -6,3 +6,5 @@ Start with:
 Let VS Code add launcher and build task
 
 Run to prove everything works. We don't have a chat bot yet, but we have a functional ASP.NET Core app.
+
+## [Source](https://github.com/maxnorth/bot-framework-tour/tree/step-00-new-app)
