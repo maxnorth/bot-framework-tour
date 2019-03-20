@@ -1,5 +1,8 @@
-<div style="font-size: 2.25em">
+Start with:        
+- `dotnet new web -n BotFrameworkTour`
+- `dotnet new sln -n BotFrameworkTour`
+- `dotnet sln add BotFrameworkTour/BotFrameworkTour.csproj`
 
-- Something
+Let VS Code add launcher and build task
 
-</div>
+Run to prove everything works. We don't have a chat bot yet, but we have a functional ASP.NET Core app.

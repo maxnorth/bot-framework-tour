@@ -1,4 +1,14 @@
-Client Channel -> Azure Bot Service -> Your App -> Azure Bot Service -> Client Channel
+<div style="font-size: 2.25em">
+
+### Request Flow
+
+Client Channel -> Bot Service -> Your App -> Bot Service -> Client Channel
+
+![Bot request flow diagram](../images/bot-request-flow.png)
+
+</div>
+
+## Notes
 
 Why is this interesting? 
 - Telemetry: a 200 request doesn't guarantee success, only that the message began processing
