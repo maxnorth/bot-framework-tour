@@ -21,9 +21,7 @@ public class MyBot : IBot {
 
         await myBotStateProp.SetAsync(turnContext, myBotState);
 
-        await _conversationState.SaveChangesAsync(turnContext);
-
-        await turnContext.SendActivityAsync("Hello world " + myBotState.Counter);
+        await turnContext.SendActivityAsync("Hello world " + myBotState.Counter + " - " + turnContext.TurnState.Get<string>("start-time"));
     }
 
     private class MyBotState {
