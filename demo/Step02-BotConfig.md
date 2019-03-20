@@ -1,5 +1,3 @@
-<div style="font-size: 2.25em">
 
-- Something
-
-</div>
+- Introduce config via .bot file (use `BotConfiguration.FromFolder`)
+- Add file copy

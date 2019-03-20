@@ -2,4 +2,4 @@
 - In `Startup.Configure()` add `app.UseBotFramework()` **before** `app.Run(...)`
 - Try connecting emulator to /api/messages (note that you **must** use http endpoint, **not** https). Observe error about missing registration.
 - Add IBot implementation with "Hello world" response, add `services.AddBot<MyBot>()`
-- Test again, this will work (not in older versions)
+- Test again, this will work
